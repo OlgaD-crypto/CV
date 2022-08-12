@@ -105,6 +105,16 @@ h1 {
   color: var(--text-color);
 }
 
+.contacts {
+  max-width: 600px;
+}
+
+footer {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: 18px;
+}
+
 @media (max-width: 420px) {
   .occupation {
     padding: 5px;
