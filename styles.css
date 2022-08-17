@@ -85,8 +85,17 @@ h1 {
 }
 
 .icon {
-  max-width: 60px;
+  width: 60px;
   margin: auto;
+  color: var(--main-text-color);
+  padding: none;
+}
+
+.icon:hover {
+  /* color: white;
+  background: var(--main-text-color);
+  transition: all 100ms ease-in-out; */
+  cursor: pointer;
 }
 
 .dates {
@@ -107,6 +116,10 @@ h1 {
 
 .contacts {
   max-width: 600px;
+}
+
+.social {
+  text-decoration: none;
 }
 
 footer {
