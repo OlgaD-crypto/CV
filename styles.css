@@ -13,6 +13,9 @@ body {
   background-size: cover;
   background-attachment: fixed;
   background-color: var(--main-background-color);
+  font-family: var(--text-font-highlight);
+  font-size: 17px;
+  color: var(--text-color);
 }
 
 .blur {
@@ -71,21 +74,30 @@ h1 {
   color: rgba(17, 74, 180, 0.7);
 }
 
+thead {
+  font-size: 20px;
+}
+
 .col-12 {
   margin-top: 8px;
 }
 .title {
-  font-size: 17px;
+  font-size: 20px;
   font-weight: bolder;
 }
 
 .title-1 {
-  font-size: 18px;
+  font-size: 24px;
   font-weight: bold;
+}
+
+.rating {
+  color: gold;
 }
 
 .icon {
   width: 60px;
+  font-size: 50px;
   margin: auto;
   color: var(--main-text-color);
   padding: none;
@@ -98,17 +110,23 @@ h1 {
   cursor: pointer;
 }
 
-.dates {
+.dates,
+.description {
   font-family: var(--text-font-highlight);
-  font-style: italic;
-  font-size: 20px;
+  /* font-style: italic; */
+  font-size: 17px;
   color: var(--text-color);
+}
+
+.position {
+  font-style: italic;
+  font-size: 18px;
 }
 
 .bg-skills {
   background-color: rgb(255, 255, 255, 0.1);
   backdrop-filter: blur(4px);
-  line-height: 45px;
+  line-height: 35px;
   font-family: var(--text-font-highlight);
   font-size: 20px;
   color: var(--text-color);
@@ -126,6 +144,10 @@ footer {
   font-family: "Courier New", Courier, monospace;
   font-weight: bold;
   font-size: 18px;
+}
+
+.git {
+  text-decoration: none;
 }
 
 @media (max-width: 420px) {
@@ -150,13 +172,14 @@ footer {
   }
 
   .icon {
-    max-width: 30px;
+    max-width: 35px;
+    font-size: 30px;
   }
 }
 
 @media (max-width: 990px) {
   .icon {
-    max-width: 40px;
+    max-width: 60px;
   }
   .table-col-1 {
     width: 1px;
